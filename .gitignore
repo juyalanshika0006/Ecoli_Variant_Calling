@@ -1,0 +1,27 @@
+# Raw sequencing data
+reads/
+*.fastq
+*.fastq.gz
+
+# Reference data
+references/
+*.fasta
+*.fa
+*.fna
+*.fna.gz
+
+# Alignment files
+*.sam
+*.bam
+*.bai
+
+# BWA index files
+*.amb
+*.ann
+*.bwt
+*.pac
+*.sa
+
+# FastQC and generated results
+results/
+*.zip
